@@ -1,0 +1,155 @@
+.Casa{
+
+    
+
+    background-color: black;
+
+    color:white;
+
+    
+
+    height: 100vh;
+   
+
+   
+
+   
+
+}
+
+//caja 1 del personaje
+
+.Casa-1{
+
+
+
+    text-align: center;
+
+}
+
+
+
+.Casa-img{
+
+   
+
+}
+
+
+
+.Casa-img-img{
+
+    width: 150px;
+
+    height: 250px;
+
+}
+
+
+
+.Casa-name{
+
+
+
+}
+
+
+
+.Casa-name-h1{
+
+    font-size: 30px;
+
+    height: 80px;
+
+    margin-top: 20px;
+
+}
+
+
+
+//Caja 2 del personaje
+
+.Casa-2{  
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+h1{
+
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+.Casa-casa{
+
+
+
+}
+
+
+
+.Casa-Casa-titulo{
+
+    font-size: 20px;
+
+}
+.Casa-lema,
+.Casa-Sede,
+.Casa-Regiones,
+.Casa-padre,
+.Casa-Religiones,
+.Casa-fundacion{
+    width: 16%;
+    text-align: center;
+    border: 1px solid green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Casa-name,
+.Casa-lema-titulo,
+.Casa-Sede-titulo,
+.Casa-Regiones-titulo,
+.Casa-padre-titulo,
+.Casa-Religiones-titulo,
+.Casa-fundacion-titulo{
+    font-size: 20px;
+    font-family: Game Of Thrones;
+}
+
+.Casa-lema-desc,
+.Casa-Sede-desc,
+.Casa-Regiones-desc,
+.Casa-padre-desc,
+.Casa-Religiones-desc,
+.Casa-fundacion-desc{
+    display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+}
+
+.Casa-Listado{
+    border: 1px solid red;
+    position: relative;
+
+    margin: 5px;
+
+    width: 80%;
+
+   text-transform:capitalize;
+   
+
+
+
+}

@@ -1,0 +1,112 @@
+*{
+
+  margin: 0;
+
+  padding: 0;
+
+ 
+
+}
+header{
+  
+}
+main{
+  height: 80vh;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+footer{
+  background-color: black;
+
+
+  
+}
+
+
+
+/*AQUI IRÁ EL COMPONENTE DEL HEADER*/
+.Header-prueba{
+  background-color: transparent;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.Header-prueba2{
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.footer-nav{
+  background-color: transparent;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.footer-txt{
+  color: white;
+  font-family: Game of Thrones;
+}
+
+
+.xd1{
+  text-decoration: underline;
+  color: white;
+}
+
+.xd2{
+  text-decoration: none;
+  
+}
+
+.VolverInicio{
+  background-image: url(./Assets/icons8-casa-144.svg);
+
+  background-size: cover;
+ 
+  width: 40px;
+  height: 40px;
+}
+.VolverAtras{
+  background-image: url(./Assets/back.png);
+  background-color: white;
+  
+  width: 48px;
+  height: 48px;
+}
+
+.btn-es{
+  background-image: url(./Assets/es1.png);
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  border-radius: 25px;
+  cursor: pointer;
+ 
+}
+.btn-en{
+  background-image: url(./Assets/en1.png);
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+
+.Buscador{
+  width: 300px;
+}
+.Buscador-{
+  width: 100%;
+  border-color: black;
+  background-color: black;
+  border-bottom: 1px solid white;
+  color :white;
+}

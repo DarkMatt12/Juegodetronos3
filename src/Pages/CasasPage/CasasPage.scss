@@ -1,0 +1,23 @@
+.Casas-Page{
+    background-color: black;
+}
+.Galeria-Casas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.Caja-nombre{
+    color: white;
+    font-family: Game Of Thrones;
+    justify-content: center;
+    text-align: center;
+}
+.Casa-Tarjeta{
+    margin-top: 20px;
+    width: 15%;
+}
+.Caja-imagen{
+    width: 100%;
+}

@@ -1,0 +1,254 @@
+/*.Personaje{
+    border: 1px solid red;
+}
+//caja 1 del personaje
+.Personaje-1{
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.Personaje-img{
+    border: 1px solid green;
+}
+
+.Personaje-img-img{}
+
+.Personaje-name{
+    border: 1px solid green;
+}
+
+.Personaje-name-h1{}
+
+//Caja 2 del personaje
+.Personaje-2{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Personaje-casa{
+    border: 1px solid green;
+}
+
+.Personaje-Casa-titulo{
+    border: 1px solid violet;
+}
+
+.Personaje-Casa-img{
+    border: 1px solid violet;
+}
+
+.Personaje-alianzas{
+    border: 1px solid green;
+}
+
+.Personaje-alianzas-titulo{
+    border: 1px solid violet;
+}
+
+.Personaje-alianzas-desc{
+    border: 1px solid violet;
+}
+
+.Personaje-apariciones{
+    border: 1px solid green;
+}
+
+.Personaje-apariciones-titulo{
+    border: 1px solid violet;
+}
+
+.Personaje-apariciones-desc{
+    border: 1px solid violet;
+}
+
+.Personaje-padre{
+    border: 1px solid green;
+}
+
+.Personaje-padre-titulo{
+    border: 1px solid violet;
+}
+
+.Personaje-padre-desc{
+    border: 1px solid violet;
+}
+
+.Personaje-descendientes{
+    border: 1px solid green;
+}
+
+.Personaje-descendientes-titulo{
+    border: 1px solid violet;
+}
+
+.Personaje-descendientes-desc{
+    border: 1px solid violet;
+}
+
+.Personaje-titulos{
+    border: 1px solid green;
+}
+
+.Personaje-titulos-titulo{
+    border: 1px solid violet;
+}
+
+.Personaje-titulos-desc{
+    border: 1px solid violet;
+}*/
+.Personaje{
+
+    
+
+    background-color: black;
+
+    color:white;
+
+    height: 100vh;
+
+   
+
+   
+
+   
+
+}
+
+//caja 1 del personaje
+
+.Personaje-1{
+
+
+
+    text-align: center;
+
+
+
+}
+
+
+
+.Personaje-img{
+
+   
+
+}
+
+
+
+.Personaje-img-img{
+
+    width: 150px;
+
+    height: 250px;
+
+}
+
+
+
+.Personaje-name{
+
+
+
+}
+
+
+
+.Personaje-name-h1{
+
+    font-size: 30px;
+
+    height: 80px;
+
+    margin-top: 20px;
+
+}
+
+
+
+//Caja 2 del personaje
+
+.Personaje-2{  
+
+    display: flex;
+
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+
+}
+
+h1{
+
+    font-size: 20px;
+
+}
+
+
+
+.Personaje-Listado{
+    border: 1px solid red;
+    position: relative;
+
+    margin: 5px;
+
+    width: 80%;
+
+   text-transform:capitalize;
+   
+
+
+
+}
+
+
+
+
+
+
+
+.Personaje-Casa-img{
+
+
+
+}
+
+.Personaje-casa,
+.Personaje-alianzas,
+.Personaje-apariciones,
+.Personaje-padre,
+.Personaje-descendientes,
+.Personaje-titulos{
+    width: 16%;
+    text-align: center;
+    border: 1px solid green;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Personaje-name,
+.Personaje-Casa-titulo,
+.Personaje-alianzas-titulo,
+.Personaje-apariciones-titulo,
+.Personaje-padre-titulo,
+.Personaje-descendientes-titulo,
+.Personaje-titulos-titulo{
+    font-size: 20px;
+    font-family: Game Of Thrones;
+}
+
+
+.Personaje-alianzas-desc,
+.Personaje-apariciones-desc,
+.Personaje-padre-desc,
+.Personaje-descendientes-desc,
+.Personaje-titulos-desc{
+        
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+}

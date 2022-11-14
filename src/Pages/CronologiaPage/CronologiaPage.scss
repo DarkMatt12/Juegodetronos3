@@ -1,0 +1,94 @@
+.Cronologia-Page{
+    background-color: black;
+    
+}
+.Todo{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Caja-btn{}
+
+.Caja-Personajes{
+   width: 800px;
+}
+.impar{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 3px solid white;
+    
+    width: calc(50% - 2px);;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    /* display: block; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.par{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 3px solid white;
+    
+    margin-left: calc(50% - 2px);
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    /* display: block; */
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.Cronologia-Contenedor-img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+.Cronologia-Galeria-img{
+    width: 100%;
+    
+}
+.Cronologia-edad{
+    color: white;
+    font-family: Game Of Thrones;
+    margin: 5px;
+}
+.Cronologia-nombre{
+    color: white;
+    font-family: Game Of Thrones;
+    margin: 5px;
+}
+//prueba
+.Cronologia-Caja-btn{
+    width: 100px;
+    height: 100px;
+}
+.Cronologia-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: black;
+    border-color: white;
+}
+.Cronologia-btn-txt{
+    color: white;
+    
+}
+.Cronologia-Linea{
+    background-image: url('../../Assets/Linea-Crono.png');
+    height: 60px;
+}
+.Cronologia-Subida{
+    background-image: url('../../Assets/Linea-Crono-Subida.png');
+    height: 60px;
+}
+.Cronologia-Bajada{
+    background-image: url('../../Assets/Linea-Crono-Bajada.png');
+    height: 60px;
+}
